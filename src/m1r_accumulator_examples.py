@@ -62,7 +62,7 @@ Academic Integrity: I got help on this module from:
 #     d. If you want a loop that runs from (r + 4) to (s - 10),
 #          including the (r + 4) but not including the (s - 10),
 #          what expression would you use in the _____ below?
-#     _ 
+#     _
 #            for k in range(_____):
 #     _
 #     e. The following code snippet attempts to return the number
@@ -125,14 +125,14 @@ import math
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     run_test_summing_example()
     run_test_counting_example()
     run_test_draw_row_of_circles()
 
 
 def run_test_summing_example():
-    """ Tests the   summing_example   function. """
+    """Tests the   summing_example   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   summing_example   function:")
@@ -179,7 +179,7 @@ def summing_example(n):
 
 
 def run_test_counting_example():
-    """ Tests the   counting_example   function. """
+    """Tests the   counting_example   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   counting_example   function:")
@@ -235,7 +235,7 @@ def counting_example(n):
 
 
 def run_test_draw_row_of_circles():
-    """ Tests the   draw_row_of_circles   function. """
+    """Tests the   draw_row_of_circles   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the  draw_row_of_circles  function:")

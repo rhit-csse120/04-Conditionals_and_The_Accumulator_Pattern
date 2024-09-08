@@ -51,7 +51,7 @@ import builtins  # Never necessary, but here for pedagogical reasons
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -67,7 +67,7 @@ def main():
 # Students: READ the  run_test_sum_from  function that follows this comment.
 # -----------------------------------------------------------------------------
 def run_test_sum_from():
-    """ Tests the   sum_from   function. """
+    """Tests the   sum_from   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   sum_from   function:")
@@ -115,6 +115,7 @@ def run_test_sum_from():
     print("Test 4 expected (from formula):", answer_from_formula)
     print("       actual (from my code):  ", answer_from_my_code)
 
+
 # -----------------------------------------------------------------------------
 # TODO: 3.
 #   When you have READ the above  run_test_sum_from  function,
@@ -157,7 +158,7 @@ def sum_from(m, n):
 
 
 def run_test_factorial():
-    """ Tests the   factorial   function. """
+    """Tests the   factorial   function."""
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this TEST function.
     #   It TESTS the  factorial  function defined below.
@@ -214,7 +215,7 @@ def factorial(n):
 
 
 def run_test_count_cosines_from():
-    """ Tests the   count_cosines_from   function. """
+    """Tests the   count_cosines_from   function."""
     # -------------------------------------------------------------------------
     # TODO: 7. Implement this TEST function.
     #   It TESTS the  count_cosines_from  function defined below.
@@ -291,7 +292,7 @@ def count_cosines_from(m, n, x):
 
 
 def run_test_sum_unit_fractions_from():
-    """ Tests the   sum_unit_fractions_from   function. """
+    """Tests the   sum_unit_fractions_from   function."""
     # -------------------------------------------------------------------------
     # TODO: 9. Implement this TEST function.
     #   It TESTS the  sum_unit_fractions_from  function defined below.

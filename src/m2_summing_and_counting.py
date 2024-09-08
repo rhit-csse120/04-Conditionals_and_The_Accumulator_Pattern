@@ -44,7 +44,7 @@ Academic Integrity: I got help on this module from:
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -56,7 +56,7 @@ def main():
 
 
 def run_test_sum_more_cosines():
-    """ Tests the   sum_more_cosines   function. """
+    """Tests the   sum_more_cosines   function."""
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this TEST function.
     #   It TESTS the  sum_more_cosines  function defined below.
@@ -131,7 +131,7 @@ def sum_more_cosines(m, n):
 
 
 def run_test_count_sines_from():
-    """ Tests the   count_sines_from   function. """
+    """Tests the   count_sines_from   function."""
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this TEST function.
     #   It TESTS the  count_sines_from  function defined below.
@@ -191,7 +191,7 @@ def count_sines_from(m, n):
 
 
 def run_test_count_sines_vs_cosines():
-    """ Tests the   count_sines_vs_cosines   function. """
+    """Tests the   count_sines_vs_cosines   function."""
     # -------------------------------------------------------------------------
     # TODO: 7. Implement this TEST function.
     #   It TESTS the  count_sines_vs_cosines  function defined below.

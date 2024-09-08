@@ -47,7 +47,7 @@ import rosegraphics as rg
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -59,7 +59,7 @@ def main():
 
 
 def run_test_draw_squares_from_circle():
-    """ Tests the   draw_squares_from_circle  function. """
+    """Tests the   draw_squares_from_circle  function."""
     print()
     print("--------------------------------------------------")
     print("Testing the  draw_squares_from_circle  function:")
@@ -139,7 +139,7 @@ def draw_squares_from_circle(n, circle, window):
 
 
 def run_test_draw_circles_from_rectangle():
-    """ Tests the   draw_circles_from_rectangle  function. """
+    """Tests the   draw_circles_from_rectangle  function."""
     print()
     print("--------------------------------------------------")
     print("Testing the  draw_circles_from_rectangle  function:")
@@ -215,7 +215,7 @@ def draw_circles_from_rectangle(m, n, rectangle, window):
 
 
 def run_test_draw_lines_from_rectangles():
-    """ Tests the   draw_lines_from_rectangles  function. """
+    """Tests the   draw_lines_from_rectangles  function."""
     print()
     print("--------------------------------------------------")
     print("Testing the  draw_lines_from_rectangles  function:")
@@ -289,7 +289,7 @@ def draw_lines_from_rectangles(rectangle1, rectangle2, n, window):
       :type rectangle2: rg.Rectangle
       :type n:          int
       :type window:     rg.RoseWindow
-      """
+    """
     # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Tests have been written for you (above).
