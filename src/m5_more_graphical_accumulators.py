@@ -152,12 +152,32 @@ def run_test_draw_circles_from_rectangle():
     #   defined below.  Include at least **   3   ** tests, of which
     #      ***  at least TWO tests are on ONE window and
     #      ***  at least ONE test is on a DIFFERENT window.
+    #   ** We wrote the first of these three tests for you. **
     #  ########################################################################
     #  HINT: Consider using the same test cases as suggested by the
     #    pictures in  4_draw_circles_from_rectangle.pdf   in this project.
     #    Follow the same form as the example in a previous problem.
     #  ########################################################################
     # -------------------------------------------------------------------------
+    title = "Tests 1 and 2 of DRAW_CIRCLES_FROM_RECTANGLE: "
+    title = title + " 4 green-filled circles & 5 black-outlined circles, then ..."
+    window1 = rg.RoseWindow(720, 500, title)
+
+    # Test 1:
+    rectangle = rg.Rectangle(rg.Point(400, 250),
+                             rg.Point(440, 325))
+    draw_circles_from_rectangle(4, 5, rectangle, window1)
+    window1.continue_on_mouse_click()
+
+    # Test 2:
+    # Put your test here.
+
+    window1.close_on_mouse_click()
+
+    # -------------------------------------------------------------------------
+    # A third test on ANOTHER window.
+    # -------------------------------------------------------------------------
+    # Put your test here.
 
 
 def draw_circles_from_rectangle(m, n, rectangle, window):
@@ -201,7 +221,8 @@ def draw_circles_from_rectangle(m, n, rectangle, window):
     """
     # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
-    #          Tests have been written for you (above).
+    #          Some tests have been written for you (above);
+    #          you add additional tests (see above).
     #  _
     #  CONSIDER using the ACCUMULATOR IN GRAPHICS pattern,
     #      as in   draw_row_of_circles   in m1e,
