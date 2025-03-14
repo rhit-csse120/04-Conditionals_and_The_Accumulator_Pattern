@@ -6,8 +6,8 @@ namely, the "IN GRAPHICS" form which features:
 
 Additionally, it emphasizes that you must
   ** DO A CONCRETE EXAMPLE BY HAND **
-before you can implement a solution to the problem in Python. 
-  
+before you can implement a solution to the problem in Python.
+
 Authors: David Mutchler, Rachel Krohn, Dave Fisher, Shawn Bohner, Sriram Mohan,
          Amanda Stouder, Vibha Alangar, Mark Hays, Dave Henthorn, Matt Boutell,
          Scott McClellan, Yiji Zhang, Mohammed Noureddine, Steve Chenoweth,
@@ -164,8 +164,7 @@ def run_test_draw_circles_from_rectangle():
     window1 = rg.RoseWindow(720, 500, title)
 
     # Test 1:
-    rectangle = rg.Rectangle(rg.Point(400, 250),
-                             rg.Point(440, 325))
+    rectangle = rg.Rectangle(rg.Point(400, 250), rg.Point(440, 325))
     draw_circles_from_rectangle(4, 5, rectangle, window1)
     window1.continue_on_mouse_click()
 
@@ -328,5 +327,7 @@ def draw_lines_from_rectangles(rectangle1, rectangle2, n, window):
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
+# This unusual form is necessary for the special testing we provided.
 # -----------------------------------------------------------------------------
-main()
+if __name__ == "__main__":
+    main()
